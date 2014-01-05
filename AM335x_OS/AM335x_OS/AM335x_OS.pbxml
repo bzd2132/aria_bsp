@@ -47,9 +47,7 @@
         <BuildOption Name="Item" OptionId="BuildOption:MS:IMGNODEBUGGER" OptionValue="1" />
         <BuildOption Name="Item" OptionId="BuildOption:MS:IMGNOKITL" OptionValue="1" />
       </BuildOptionCollection>
-      <StringDictionary Name="EnvironmentVariables">
-        <Entry Name="bsp_save_ebootcfg_to_sd">1</Entry>
-      </StringDictionary>
+      <StringDictionary Name="EnvironmentVariables" />
       <LocaleInfo Name="LocaleInformation" />
       <CustomBuildActions Name="CustomBuildActions" />
       <PBPEntryCollection Name="PBProjectOptions" EnforceUniqueItems="False" />
