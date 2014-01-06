@@ -4,7 +4,6 @@
   <FeatureCollection Name="AnchoredFeatures" EnforceUniqueItems="True">
     <Feature Name="Item" CatalogItemId="Item:MS:sysgen_shell" />
     <Feature Name="Item" CatalogItemId="Item:MS:img_screen_medium" />
-    <Feature Name="Item" CatalogItemId="Item:MS:sysgen_xrshell" />
     <Feature Name="Item" CatalogItemId="Item:MS:sysgen_datetimecpl" />
     <Feature Name="Item" CatalogItemId="Item:MS:sysgen_regionalcpl" />
     <Feature Name="Item" CatalogItemId="Item:MS:IMG_XRST_THEME_0" />
@@ -14,6 +13,8 @@
     <Feature Name="Item" CatalogItemId="Item:MS:sysgen_video_player" />
     <Feature Name="Item" CatalogItemId="Item:MS:sysgen_ctlpnl2" />
     <Feature Name="Item" CatalogItemId="Item:MS:sysgen_xamlim" />
+    <Feature Name="Item" CatalogItemId="Item:MS:sysgen_standardshell" />
+    <Feature Name="Item" CatalogItemId="Item:MS:sysgen_touchgesture" />
   </FeatureCollection>
   <ConfigurationCollection Name="Configurations" EnforceUniqueItems="False">
     <Configuration Name="Item" TargetBinFilename="nk.bin" BuildType="Debug" FriendlyName="AM335X_BSP_AriaBoard ARMV7 Debug">
@@ -22,6 +23,9 @@
         <Feature Name="Item" CatalogItemId="AM33x:Aria:BCH8bitELM_AM335X_BSP_AriaBoard" />
         <Feature Name="Item" CatalogItemId="AM33x:Aria:imgreghive_AM335X_BSP_AriaBoard" />
         <Feature Name="Item" CatalogItemId="AM33x:Aria:am33xLCDC_AM335X_BSP_AriaBoard" />
+        <Feature Name="Item" CatalogItemId="AM33x:Aria:am33xtouch_AM335X_BSP_AriaBoard" />
+        <Feature Name="Item" CatalogItemId="AM33x:Aria:am33xuart2_AM335X_BSP_AriaBoard" />
+        <Feature Name="Item" CatalogItemId="AM33x:Aria:MUSB_AM335X_BSP_AriaBoard" />
       </FeatureCollection>
       <FeatureCollection Name="FeaturesExcludedFromImage" EnforceUniqueItems="True" />
       <BuildOptionCollection Name="BuildOptions" EnforceUniqueItems="True">
@@ -40,6 +44,9 @@
         <Feature Name="Item" CatalogItemId="AM33x:Aria:BCH8bitELM_AM335X_BSP_AriaBoard" />
         <Feature Name="Item" CatalogItemId="AM33x:Aria:imgreghive_AM335X_BSP_AriaBoard" />
         <Feature Name="Item" CatalogItemId="AM33x:Aria:am33xLCDC_AM335X_BSP_AriaBoard" />
+        <Feature Name="Item" CatalogItemId="AM33x:Aria:am33xtouch_AM335X_BSP_AriaBoard" />
+        <Feature Name="Item" CatalogItemId="AM33x:Aria:am33xuart2_AM335X_BSP_AriaBoard" />
+        <Feature Name="Item" CatalogItemId="AM33x:Aria:MUSB_AM335X_BSP_AriaBoard" />
       </FeatureCollection>
       <FeatureCollection Name="FeaturesExcludedFromImage" EnforceUniqueItems="True" />
       <BuildOptionCollection Name="BuildOptions" EnforceUniqueItems="True">
@@ -60,6 +67,9 @@
         <Feature Name="Item" CatalogItemId="AM33x:Aria:BCH8bitELM_AM335X_BSP_AriaBoard" />
         <Feature Name="Item" CatalogItemId="AM33x:Aria:imgreghive_AM335X_BSP_AriaBoard" />
         <Feature Name="Item" CatalogItemId="AM33x:Aria:am33xLCDC_AM335X_BSP_AriaBoard" />
+        <Feature Name="Item" CatalogItemId="AM33x:Aria:am33xtouch_AM335X_BSP_AriaBoard" />
+        <Feature Name="Item" CatalogItemId="AM33x:Aria:am33xuart2_AM335X_BSP_AriaBoard" />
+        <Feature Name="Item" CatalogItemId="AM33x:Aria:MUSB_AM335X_BSP_AriaBoard" />
       </FeatureCollection>
       <FeatureCollection Name="FeaturesExcludedFromImage" EnforceUniqueItems="True" />
       <BuildOptionCollection Name="BuildOptions" EnforceUniqueItems="True">
