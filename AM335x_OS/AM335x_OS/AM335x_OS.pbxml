@@ -2,7 +2,11 @@
 <Workspace Version="7.0" PlatformName="AM335x_OS" CoreOs="CEBASE" PlatformGuid="2ecf3502-fc68-4b51-8c75-dca0975ed95c" xmlns="urn:PBCommon-schema">
   <PBProjectCollection Name="PBProjects" EnforceUniqueItems="True" />
   <FeatureCollection Name="AnchoredFeatures" EnforceUniqueItems="True">
+    <Feature Name="Item" CatalogItemId="Item:MS:sysgen_stdio" />
+    <Feature Name="Item" CatalogItemId="Item:MS:sysgen_stdioa" />
+    <Feature Name="Item" CatalogItemId="Item:MS:sysgen_corestra" />
     <Feature Name="Item" CatalogItemId="Item:MS:sysgen_shell" />
+    <Feature Name="Item" CatalogItemId="Item:MS:sysgen_ceddk" />
     <Feature Name="Item" CatalogItemId="Item:MS:img_screen_medium" />
     <Feature Name="Item" CatalogItemId="Item:MS:sysgen_datetimecpl" />
     <Feature Name="Item" CatalogItemId="Item:MS:sysgen_regionalcpl" />
@@ -17,6 +21,10 @@
     <Feature Name="Item" CatalogItemId="Item:MS:sysgen_touchgesture" />
     <Feature Name="Item" CatalogItemId="Item:MS:sysgen_dshow_wmp" />
     <Feature Name="Item" CatalogItemId="Item:MS:sysgen_mediaapps_wmpocx" />
+    <Feature Name="Item" CatalogItemId="Item:MS:sysgen_usbfn_storage" />
+    <Feature Name="Item" CatalogItemId="Item:MS:sysgen_usbfn_ethernet" />
+    <Feature Name="Item" CatalogItemId="Item:MS:sysgen_usbfn_serial" />
+    <Feature Name="Item" CatalogItemId="Item:MS:sysgen_usbfn" />
     <Feature Name="Item" CatalogItemId="Item:MS:sysgen_usb_hid" />
     <Feature Name="Item" CatalogItemId="Item:MS:sysgen_usb_storage" />
     <Feature Name="Item" CatalogItemId="Item:MS:sysgen_i2c" />
