@@ -23,8 +23,6 @@
     <Feature Name="Item" CatalogItemId="Item:MS:sysgen_touchgesture" />
     <Feature Name="Item" CatalogItemId="Item:MS:sysgen_physicsengine" />
     <Feature Name="Item" CatalogItemId="Item:MS:sysgen_usbfn_storage" />
-    <Feature Name="Item" CatalogItemId="Item:MS:sysgen_usbfn_ethernet" />
-    <Feature Name="Item" CatalogItemId="Item:MS:sysgen_usbfn_serial" />
     <Feature Name="Item" CatalogItemId="Item:MS:sysgen_usbfn" />
     <Feature Name="Item" CatalogItemId="Item:MS:sysgen_usb_hid" />
     <Feature Name="Item" CatalogItemId="Item:MS:sysgen_usb_storage" />
@@ -43,8 +41,10 @@
     <Feature Name="Item" CatalogItemId="Item:MS:sysgen_sndschemecpl" />
     <Feature Name="Item" CatalogItemId="Item:MS:sysgen_touch" />
     <Feature Name="Item" CatalogItemId="Item:MS:sysgen_displaycpl" />
-    <Feature Name="Item" CatalogItemId="Item:MS:bsp_usb_ehci" />
     <Feature Name="Item" CatalogItemId="Item:ImaginationTechnologies:powerVR:CoreRev121" />
+    <Feature Name="Item" CatalogItemId="Item:MS:sysgen_localaudio" />
+    <Feature Name="Item" CatalogItemId="Item:MS:sysgen_streamaudio" />
+    <Feature Name="Item" CatalogItemId="Item:MS:sysgen_dshow_mp4demux" />
   </FeatureCollection>
   <ConfigurationCollection Name="Configurations" EnforceUniqueItems="False">
     <Configuration Name="Item" TargetBinFilename="nk.bin" BuildType="Debug" FriendlyName="AM335X_BSP_AriaBoard ARMV7 Debug">
@@ -60,6 +60,9 @@
         <Feature Name="Item" CatalogItemId="AM33x:Aria:am33xgpio_AM335X_BSP_AriaBoard" />
         <Feature Name="Item" CatalogItemId="AM33x:Aria:PRU_AM335X_BSP_AriaBoard" />
         <Feature Name="Item" CatalogItemId="AM33x:Aria:am33xaudio_AM335X_BSP_AriaBoard" />
+        <Feature Name="Item" CatalogItemId="AM33x:Aria:am33xuart3_AM335X_BSP_AriaBoard" />
+        <Feature Name="Item" CatalogItemId="AM33x:Aria:am33xuart5_AM335X_BSP_AriaBoard" />
+        <Feature Name="Item" CatalogItemId="AM33x:Aria:Ndiscpsw3g_AM335X_BSP_AriaBoard" />
       </FeatureCollection>
       <FeatureCollection Name="FeaturesExcludedFromImage" EnforceUniqueItems="True" />
       <BuildOptionCollection Name="BuildOptions" EnforceUniqueItems="True">
@@ -85,6 +88,9 @@
         <Feature Name="Item" CatalogItemId="AM33x:Aria:am33xgpio_AM335X_BSP_AriaBoard" />
         <Feature Name="Item" CatalogItemId="AM33x:Aria:PRU_AM335X_BSP_AriaBoard" />
         <Feature Name="Item" CatalogItemId="AM33x:Aria:am33xaudio_AM335X_BSP_AriaBoard" />
+        <Feature Name="Item" CatalogItemId="AM33x:Aria:am33xuart3_AM335X_BSP_AriaBoard" />
+        <Feature Name="Item" CatalogItemId="AM33x:Aria:am33xuart5_AM335X_BSP_AriaBoard" />
+        <Feature Name="Item" CatalogItemId="AM33x:Aria:Ndiscpsw3g_AM335X_BSP_AriaBoard" />
       </FeatureCollection>
       <FeatureCollection Name="FeaturesExcludedFromImage" EnforceUniqueItems="True" />
       <BuildOptionCollection Name="BuildOptions" EnforceUniqueItems="True">
@@ -112,6 +118,9 @@
         <Feature Name="Item" CatalogItemId="AM33x:Aria:am33xgpio_AM335X_BSP_AriaBoard" />
         <Feature Name="Item" CatalogItemId="AM33x:Aria:PRU_AM335X_BSP_AriaBoard" />
         <Feature Name="Item" CatalogItemId="AM33x:Aria:am33xaudio_AM335X_BSP_AriaBoard" />
+        <Feature Name="Item" CatalogItemId="AM33x:Aria:am33xuart3_AM335X_BSP_AriaBoard" />
+        <Feature Name="Item" CatalogItemId="AM33x:Aria:am33xuart5_AM335X_BSP_AriaBoard" />
+        <Feature Name="Item" CatalogItemId="AM33x:Aria:Ndiscpsw3g_AM335X_BSP_AriaBoard" />
       </FeatureCollection>
       <FeatureCollection Name="FeaturesExcludedFromImage" EnforceUniqueItems="True" />
       <BuildOptionCollection Name="BuildOptions" EnforceUniqueItems="True">
