@@ -33,11 +33,6 @@
     <Feature Name="Item" CatalogItemId="Item:MS:sysgen_console" />
     <Feature Name="Item" CatalogItemId="Item:MS:sysgen_usb" />
     <Feature Name="Item" CatalogItemId="Item:MS:sysgen_sdhc_standard" />
-    <Feature Name="Item" CatalogItemId="Item:MS:sysgen_fonts_msyhbd" />
-    <Feature Name="Item" CatalogItemId="Item:MS:sysgen_fonts_msyh" />
-    <Feature Name="Item" CatalogItemId="Item:MS:sysgen_uniscribe" />
-    <Feature Name="Item" CatalogItemId="Item:MS:sysgen_dotnetv35" />
-    <Feature Name="Item" CatalogItemId="Item:MS:sysgen_mapi" />
     <Feature Name="Item" CatalogItemId="Item:MS:sysgen_sndschemecpl" />
     <Feature Name="Item" CatalogItemId="Item:MS:sysgen_touch" />
     <Feature Name="Item" CatalogItemId="Item:MS:sysgen_displaycpl" />
